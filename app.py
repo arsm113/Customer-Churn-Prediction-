@@ -5,9 +5,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from joblib import load
 import shap
-logistic_model = load("/content/logistic_model.pkl")
-rf_model = load("/content/rf_model.pkl")
-xgb_model = load("/content/xgb_model.pkl")
+  logistic_model = load("/Pkl/logistic_model.pkl")
+rf_model = load("/Pkl/rf_model.pkl")
+xgb_model = load("/Pkl/xgb_model.pkl")
 
 tab1, tab2 = st.tabs(['Prediction', 'Model Insights'])
 
