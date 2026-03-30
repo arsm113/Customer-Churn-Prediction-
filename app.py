@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from joblib import load
 import shap
-  logistic_model = load("/Pkl/logistic_model.pkl")
+logistic_model = load("/Pkl/logistic_model.pkl")
 rf_model = load("/Pkl/rf_model.pkl")
 xgb_model = load("/Pkl/xgb_model.pkl")
 
